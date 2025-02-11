@@ -33,7 +33,7 @@ export default function Home() {
 						</span>
 					</>
 				}
-				description="Tired of fad diets and endless cardio? We're here to help you sculpt a strong, feminine lower body with expert guidance - designed specifically for your body type and goals"
+				description="Finally achieve the toned, strong legs and glutes you've been working for, with a program that fits your busy schedule and actually delivers results"
 				buttonText="Book Your Free Consultation"
 			/>
 			<CarouselComponent />
