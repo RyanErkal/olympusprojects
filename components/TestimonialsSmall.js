@@ -30,7 +30,7 @@ export default function TestimonialsSmall() {
 
 function TestimonialCard({ title, name, image, quote }) {
 	return (
-		<div className="h-full bg-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-xl flex flex-col-reverse xl:flex-row xl:justify-between gap-4">
+		<div className="h-full bg-gradient-to-tr from-slate-800 to-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-xl flex flex-col-reverse xl:flex-row xl:justify-between gap-4">
 			<div className="flex-1 flex flex-col justify-start xl:justify-between gap-6">
 				<div className="flex flex-col gap-6">
 					<h3 className="text-3xl xl:text-4xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">

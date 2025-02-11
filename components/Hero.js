@@ -5,7 +5,7 @@ import logo from "@/public/logo.webp";
 export default function Hero({ callout, title, description, buttonText }) {
 	return (
 		<section className="bg-slate-950">
-			<div className="w-full max-w-7xl mx-auto flex justify-between items-center">
+			<div className="w-full max-w-7xl mx-auto flex justify-between items-center p-4">
 				<Image
 					src={logo}
 					alt="Hero Background"
@@ -21,13 +21,13 @@ export default function Hero({ callout, title, description, buttonText }) {
 			</div>
 			<div className="relative max-w-7xl mx-auto py-24 px-4">
 				<div className="flex flex-col items-center justify-center text-center gap-4">
-					<h2 className="text-2xl xl:text-3xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
+					<h2 className="text-xl lg:text-2xl xl:text-3xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
 						{callout}
 					</h2>
-					<h1 className="text-slate-100 text-4xl xl:text-6xl font-semibold uppercase">
+					<h1 className="text-slate-100 text-4xl lg:text-5xl xl:text-6xl font-semibold uppercase">
 						{title}
 					</h1>
-					<p className="text-slate-400 max-w-2xl text-lg">
+					<p className="text-slate-400 max-w-2xl text-base lg:text-lg">
 						{description}
 					</p>
 					<div className="flex items-center justify-center gap-2 mt-4 lg:mt-6">

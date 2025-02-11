@@ -77,7 +77,7 @@ export default function Contact() {
 			<Toaster position="bottom-right" />
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col items-center">
-					<h2 className="uppercase text-4xl sm:text-5xl xl:text-6xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
+					<h2 className="uppercase text-center text-4xl sm:text-5xl xl:text-6xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
 						Book Your Free Consultation
 					</h2>
 					<p className="mt-4 text-lg text-slate-400 text-center max-w-2xl">

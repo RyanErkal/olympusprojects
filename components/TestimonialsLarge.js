@@ -23,7 +23,7 @@ export default function TestimonialsLarge({ title, testimonials }) {
 
 function TestimonialCard({ name, image, quote, weightLost, timeTaken }) {
 	return (
-		<article className="h-full bg-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-xl flex flex-col-reverse xl:flex-row xl:justify-between gap-6">
+		<article className="h-full bg-gradient-to-tr from-slate-800 to-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-xl flex flex-col-reverse xl:flex-row xl:justify-between gap-6">
 			<div className="flex-1 flex flex-col justify-start xl:justify-between gap-6 xl:w-1/2">
 				{/* Name and Quote */}
 				<div className="flex flex-col gap-4">

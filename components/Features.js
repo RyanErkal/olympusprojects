@@ -26,7 +26,7 @@ export default function Features({ title, features }) {
 
 function FeatureCard({ title, description, svg }) {
 	return (
-		<div className="bg-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-lg flex flex-col justify-between">
+		<div className="bg-gradient-to-tr from-slate-800 to-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-lg flex flex-col justify-between">
 			<div className="border-2 border-gradient-to-r border-[#FDD557] to-amber-500 text-[#FDD557] h-20 w-20 rounded-lg flex items-center justify-center overflow-hidden">
 				<div className="bg-gradient-to-r from-[#FDD557]/20 to-amber-500/20 p-2 h-full w-full flex items-center justify-center">
 					{svg}

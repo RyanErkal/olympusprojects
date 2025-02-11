@@ -37,7 +37,7 @@ export default function Countdown() {
 	return (
 		<section className="bg-slate-950">
 			<div className="max-w-7xl mx-auto py-24 px-4">
-				<div className="w-full mx-auto flex flex-col items-center bg-slate-900 border-2 border-slate-800 p-6 sm:p-8 xl:p-16 rounded-lg mt-12 lg:mt-16">
+				<div className="w-full mx-auto flex flex-col items-center bg-gradient-to-tr from-slate-800 to-slate-900 border-2 border-slate-800 p-6 sm:p-8 xl:p-16 rounded-lg mt-12 lg:mt-16">
 					<h2 className="text-3xl sm:text-4xl xl:text-5xl font-black text-center bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
 						FEBRUARY FITNESS FOUNDATIONS
 					</h2>

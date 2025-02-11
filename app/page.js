@@ -106,8 +106,8 @@ export default function Home() {
 			<Countdown />
 			{/* FAQ - Make these specific to who we're targeting */}
 			<FAQ faqItems={faqItems} />
-			<Address />
 			<CTA />
+			<Address />
 			<Footer />
 		</>
 	);
