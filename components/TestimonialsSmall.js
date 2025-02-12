@@ -33,7 +33,7 @@ function TestimonialCard({ title, name, image, quote }) {
 		<div className="h-full bg-gradient-to-tr from-slate-800 to-slate-900 border-2 border-slate-800 p-6 xl:p-8 rounded-xl flex flex-col-reverse xl:flex-row xl:justify-between gap-4">
 			<div className="flex-1 flex flex-col justify-start xl:justify-between gap-6">
 				<div className="flex flex-col gap-6">
-					<h3 className="text-3xl xl:text-4xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
+					<h3 className="text-2xl xl:text-3xl font-black bg-gradient-to-r from-[#FDD557] to-amber-500 bg-clip-text text-transparent">
 						{title}
 					</h3>
 					<p className="text-lg xl:text-xl text-slate-300 italic">
@@ -65,32 +65,39 @@ function TestimonialCard({ title, name, image, quote }) {
 const testimonials = [
 	{
 		title: "8kg Weight Loss",
-		name: "John Doe",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		name: "Josh Nelson",
+		quote: "“Phenomenal place to train AJ is really good at helping ensure your using the correct posture and technique, keeping you motivated by pushing you and is always happy help with nutritional advice. It is a really friendly environment at the gym with everyone happy to help each other”"
 	},
 	{
-		title: "10kg Weight Loss",
-		name: "Jane Smith",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		title: "15kg Weight Loss",
+		name: "Namaan Ul-Haq",
+		quote: "“I've been training at Olympus for 6 months now. In that time, I've become stronger than ever, having blown through previous PRs, whilst being 15kg lighter than when I first turned up. Classes are fun and engaging, and AJ and Stefan are both friendly yet promote a no-nonsense approach to strength training. I've really enjoyed my time here so far, and can't wait to see where I am in another 6 months.”"
 	},
 	{
-		title: "12kg Weight Loss",
-		name: "John Doe",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		title: "Highly Recommend",
+		name: "Alexandra Lavery",
+		quote: `“After trying a few gyms in town and struggling with consistency I found Olympus Projects, I now look forward to going to the gym again and I'm back in a good routine.
+
+		AJ is very knowledgeable, especially if you have any pains or injuries, helping with technique, mobility and building strength to overcome these.
+
+		The classes are great and suitable for all fitness levels, I always feel like I've had a great workout. I would highly recommend this gym.”`
 	},
 	{
-		title: "8kg Weight Loss",
-		name: "John Doe",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		title: "Couldn't Recommend More",
+		name: "Rui Hou",
+		quote: "“Never thought my first gym experience would be so amazing! You have everything you need here to embark your journey of being stronger and healthier, ranging from nutrition suggestions, mental support from tutors and other friendly members of the community to tailored instruction during the training. Couldn't recommend here more if you are aiming to become stronger from the very moment.”"
 	},
 	{
-		title: "10kg Weight Loss",
-		name: "Jane Smith",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		title: "Truly Tailored",
+		name: "Cath Brown",
+		quote: `“A great place to train with an excellent blend of support, structure, challenge and innovation.
+				I've had personal trainers before but the training here has been the best because it is truly tailored to me and every session is different but there is enough consistency to be able to really see progress.
+				Recommended to both the already-fit but especially those who would like to improve their fitness.”`
 	},
 	{
-		title: "12kg Weight Loss",
-		name: "John Doe",
-		quote: "“I had tried so many PTs and programs before and never got anything sustainable or permanent. At the Olympus Projects I really felt like I was part of the team, same faces, same classes, everyone getting better and pushing each other forward. I'm 6 months in and don't see myself training anywhere else.”"
+		title: "Made Me Feel At Home",
+		name: "Ome Alika",
+		quote: `“When I spoke to AJ, I told him I wanted to learn the form because I had injuries due to bad formation and also I wanted to get stronger. I wasn't keen on losing weight but if it happens then is a bonus.
+		Stepping into the gym that faithful day was a different experience all together, seeing other women do things like lifting weights, boxing made me feel I was home.”`
 	}
 ];
