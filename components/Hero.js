@@ -6,13 +6,15 @@ export default function Hero({ callout, title, description, buttonText }) {
 	return (
 		<section className="bg-slate-950">
 			<div className="w-full max-w-7xl mx-auto flex justify-between items-center p-4">
-				<Image
-					src={logo}
-					alt="Hero Background"
-					height={100}
-					width={100}
-					className="object-cover"
-				/>
+				<Link href="/">
+					<Image
+						src={logo}
+						alt="Hero Background"
+						height={100}
+						width={100}
+						className="object-cover"
+					/>
+				</Link>
 				<Link
 					href="#contact"
 					className="relative bg-gradient-to-r from-[#FDD557] to-amber-500 text-slate-100 hover:text-slate-900 font-bold py-3 px-5 rounded-lg hover:brightness-110 transform hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#FDD557] focus:ring-offset-2 focus:ring-offset-slate-900 w-fit before:absolute before:inset-0 before:bg-slate-800 hover:before:bg-opacity-0 before:transition-all before:duration-200 before:rounded-lg isolate">
