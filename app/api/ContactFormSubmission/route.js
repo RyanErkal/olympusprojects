@@ -185,7 +185,7 @@ export async function POST(req) {
 		// Send email to the admin
 		const adminEmail = await resend.emails.send({
 			from: "The Olympus Projects <ryan@redesignsolutions.co>",
-			to: ["ryanerkal1@gmail.com"],
+			to: ["ryanerkal1@gmail.com", "train@theolympusprojects.co.uk"],
 			subject: "New Contact Form Submission",
 			replyTo: email,
 			html: adminEmailTemplate
