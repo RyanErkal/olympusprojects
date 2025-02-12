@@ -28,6 +28,19 @@ export default function RootLayout({ children }) {
 						gtag('config', 'G-MM8KME8WMM');
 					`}
 				</Script>
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=AW-16870560347"
+					strategy="afterInteractive"
+				/>
+				<Script id="google-ads" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+
+						gtag('config', 'AW-16870560347');
+					`}
+				</Script>
 				<Analytics />
 			</body>
 		</html>
