@@ -49,7 +49,7 @@ export default function Countdown() {
 					</div>
 					<div className="flex flex-col items-center gap-4 text-slate-300 text-center text-lg mt-12 lg:mt-16">
 						<h3 className="font-semibold text-2xl text-slate-100">
-							JOIN OUR GROUP PT PROGRAM THIS MONTH AND RECEIVE
+							JOIN OUR GROUP PROGRAM THIS MONTH AND RECEIVE
 						</h3>
 						<p>
 							<Check className="inline text-green-400 mr-2 h-5 w-5" />
@@ -57,15 +57,15 @@ export default function Countdown() {
 						</p>
 						<p>
 							<Check className="inline text-green-400 mr-2 h-5 w-5" />
-							Custom Recipe Cookbook for Busy Lives
+							&quot;Meal Prep Sunday&quot; Digital Cookbook
 						</p>
 						<p>
 							<Check className="inline text-green-400 mr-2 h-5 w-5" />
-							Complimentary Goal-Setting Session
+							Grocery List Calculator
 						</p>
 						<p>
 							<Check className="inline text-green-400 mr-2 h-5 w-5" />
-							£50 Off Your First Month
+							Restaurant Ordering Blueprint
 						</p>
 					</div>
 					<div className="flex flex-col items-center gap-4 text-slate-100 text-center mt-8 lg:mt-12">
