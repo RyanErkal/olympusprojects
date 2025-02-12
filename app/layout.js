@@ -1,4 +1,6 @@
 import "./globals.css";
+import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
 	title: "Personal Training & Group Classes Manchester | The Olympus Projects",
@@ -9,7 +11,25 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`antialiased`}>{children}</body>
+			<head></head>
+			<body className={`antialiased`}>
+				{children}
+
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-MM8KME8WMM"
+					strategy="afterInteractive"
+				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+
+						gtag('config', 'G-MM8KME8WMM');
+					`}
+				</Script>
+				<Analytics />
+			</body>
 		</html>
 	);
 }
