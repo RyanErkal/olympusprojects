@@ -56,6 +56,14 @@ export default function Contact() {
 			if (response.ok) {
 				toast.success("Form submitted successfully!");
 				setIsSubmitted(true);
+				// Add Google Ads conversion tracking
+				if (typeof window !== "undefined" && window.gtag) {
+					window.gtag("event", "conversion", {
+						send_to: "AW-16870560347/u-OJCJj-lp0aENukwew-",
+						value: 1.0,
+						currency: "GBP"
+					});
+				}
 			} else {
 				const errorData = await response.json();
 				toast.error(
